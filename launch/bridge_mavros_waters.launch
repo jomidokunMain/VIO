@@ -6,7 +6,7 @@
   <arg name="tgt_component" default="1" />
   
   <!-- Launch bridge -->
-  <include file="$(find px4_realsense_bridge)/launch/bridge.launch" >
+  <include file="$(find px4_realsense_bridge)/launch/bridge_over_waters.launch" >
   </include>
 
   <!-- Launch MavROS -->
